@@ -1,7 +1,7 @@
 // src/components/tours/TourCard.tsx
 import Link from "next/link";
 import Image from "next/image";
-import { Tour } from "@/data/mockTours";
+import { Tour } from "@/lib/tours";
 
 interface TourCardProps {
   tour: Tour;
